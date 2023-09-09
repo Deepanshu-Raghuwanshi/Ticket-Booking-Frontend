@@ -1,0 +1,31 @@
+.contactcontainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.contactlist {
+  list-style: none;
+  padding: 0;
+}
+
+.contactlist li {
+  margin-bottom: 10px;
+}
+
+.contactlist li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contactlist li a:hover {
+  text-decoration: underline;
+}

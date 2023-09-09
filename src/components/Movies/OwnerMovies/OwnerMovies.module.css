@@ -1,0 +1,23 @@
+.namebox {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+   min-width: 150px;  
+  height:120px
+}
+
+.name {
+  font-weight: bold;
+}
+.buttoncontainer {
+  margin-top: 10px;
+}
+
+.deletebutton {
+   position: absolute; 
+   left: 50%;
+  transform: translateX(-50%);
+}

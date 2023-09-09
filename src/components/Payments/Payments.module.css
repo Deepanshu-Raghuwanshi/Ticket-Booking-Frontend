@@ -1,0 +1,76 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px
+}
+
+.movieshowtable {
+  width: 100%;
+  max-width: 400px;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.movieshowtable th {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.movieshowtable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.movieshowtable td:first-child {
+  font-weight: bold;
+}
+
+.movieshowtable img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+
+
+.seatbooking {
+  text-align: center;
+  margin: 20px;
+}
+
+.seatcontainer {
+    display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: #f3a5f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+p {
+  margin-top: 20px;
+}

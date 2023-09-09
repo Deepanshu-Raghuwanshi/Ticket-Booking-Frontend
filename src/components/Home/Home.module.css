@@ -1,0 +1,31 @@
+.servicescontainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.subheading {
+  font-size: 24px;
+}
+
+.servicesboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.servicebox {
+  width: 150px;
+  height: 150px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.servicebox:hover {
+  background-color: #ddd;
+}

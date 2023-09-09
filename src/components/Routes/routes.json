@@ -1,0 +1,15 @@
+{
+  "HOME":"/",
+  "USERSIGNUP":"usersignup",
+  "USERLOGIN":"userlogin",
+  "CONTACTUS":"contactus",
+  "FOOD":"food",
+  "PLAY":"play",
+  "MOVIES":"movies",
+  "OWNERSIGNUP":"ownersignup",
+  "OWNERLOGIN":"ownerlogin",
+  "OWNERMOVIES":"ownermovies",
+  "USERMOVIES":"usermovies",
+  "SEATS":"seats",
+  "PAYMENTS":"payments"
+}
